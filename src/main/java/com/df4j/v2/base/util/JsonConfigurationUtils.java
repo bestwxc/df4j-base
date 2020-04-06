@@ -1,8 +1,7 @@
 package com.df4j.v2.base.util;
 
-import com.df4j.base.exception.DfException;
+import com.df4j.v2.base.exception.DfException;
 import org.springframework.core.io.Resource;
-
 import java.io.InputStream;
 import java.nio.charset.Charset;
 
