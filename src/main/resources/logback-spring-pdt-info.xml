@@ -8,7 +8,7 @@
 
     <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%c][%M][%L]-> %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%C][%M][%L]-> %m%n</pattern>
         </encoder>
     </appender>
 
@@ -24,7 +24,7 @@
         </rollingPolicy>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%c][%M][%L]-> %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%C][%M][%L]-> %m%n</pattern>
         </encoder>
     </appender>
     <appender name="infoAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -39,7 +39,7 @@
         </rollingPolicy>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%c][%M][%L]-> %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%C][%M][%L]-> %m%n</pattern>
         </encoder>
     </appender>
     <appender name="warnAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -54,7 +54,7 @@
         </rollingPolicy>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%c][%M][%L]-> %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%C][%M][%L]-> %m%n</pattern>
         </encoder>
     </appender>
     <appender name="errorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -69,7 +69,7 @@
         </rollingPolicy>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%c][%M][%L]-> %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%C][%M][%L]-> %m%n</pattern>
         </encoder>
     </appender>
     <appender name="dfSysAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -84,7 +84,7 @@
         </rollingPolicy>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%c][%M][%L]-> %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%C][%M][%L]-> %m%n</pattern>
         </encoder>
     </appender>
     <appender name="dfBizAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -99,7 +99,7 @@
         </rollingPolicy>
         <encoder>
             <charset>UTF-8</charset>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%c][%M][%L]-> %m%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%t][%p][%C][%M][%L]-> %m%n</pattern>
         </encoder>
     </appender>
     <logger name="dfSysLogger" additivity="true" level="DEBUG">
