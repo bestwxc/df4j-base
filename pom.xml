@@ -15,10 +15,19 @@
     <name>df4j-base</name>
     <description>df4j项目2.0基础模块</description>
 
+    <properties>
+        <commons-collections4.version>4.4</commons-collections4.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-text</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>${commons-collections4.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-codec</groupId>
